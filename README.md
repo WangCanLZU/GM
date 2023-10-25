@@ -35,7 +35,7 @@ The solver of discussed problem.
 - `a`, `b`, `c`, `d` : the endpoints of two intervals that make up the rectangular area, that is, $\Omega=(a,b)\times (c,d)$
 - `alpha` : the order of time fractional derivative
 - `sigma` : the tempered parameter in the time fractional derivative
-- `r` : the paameter in graded mesh
+- `r` : the parameter in graded mesh
 - `N1` : the number of uniformly discretized sub-intervals in spatial $x$ direction
 - `N2` : the number of uniformly discretized sub-intervals in spatial $y$ direction
 - `N` : the number of time stepping used in the graded mesh
