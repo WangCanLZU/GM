@@ -2,7 +2,7 @@
 [![](https://img.shields.io/badge/doi-10.4208%2Fijnam2023-1033)](https://doi.org/10.4208/ijnam2023-1033)
 
 > [!NOTE]
-> The MATLAB codes for the research paper: Can Wang, Weihua Deng, and Xiangong Tang. ["A sharp $\alpha$-robust $L1$ scheme on grades meshes for two-dimensional time tempered fractional Fokker-Planck equation."](https://doi.org/10.4208/ijnam2023-1033) Int. J. Numer. Anal. Mod. **20**, 739-771 (2023).
+> The MATLAB codes for the research paper: Can Wang, Weihua Deng, and Xiangong Tang. ["A sharp $\alpha$-robust $L1$ scheme on graded meshes for two-dimensional time tempered fractional Fokker-Planck equation."](https://doi.org/10.4208/ijnam2023-1033) Int. J. Numer. Anal. Mod. **20**, 739-771 (2023).
 
 > [!WARNING]  
 > The publication information mentioned here such as the doi, may differ from the officially published version. Once this happens, we will correct it immediately.
@@ -58,7 +58,7 @@ The numerical experiments taken in the paper.
 ## Citation
 ```biblatex
 @article{wang2023tempered
-title = {A sharp $\alpha$-robust $L1$ scheme on grades meshes for two-dimensional time tempered fractional Fokker-Planck equation},
+title = {A sharp $\alpha$-robust $L1$ scheme on graded meshes for two-dimensional time tempered fractional Fokker-Planck equation},
 author = {Wang, Can and Deng, Weihua and Tang, Xiangong},
 journal = {Int. J. Numer. Anal. Mod.},
 volume = {20},
