@@ -17,13 +17,9 @@ sigma = 1;
 N1 = 1024; N2 = 1024; N = 32; 
 
 [~, x1, y1, U1] = graded_solver(T, a, b, c, d, alpha, sigma, r, N1, N2, N, u0, f);
-U1 = reshape(U1(:, end), length(x1)-2, length(y1)-2);
 [~, x2, y2, U2] = graded_solver(T, a, b, c, d, alpha, sigma, r, N1,N2, 2*N, u0, f);
-U2 = reshape(U2(:, end), length(x2)-2, length(y2)-2)
 [~, x3, y3, U3] = graded_solver(T, a, b, c, d, alpha, sigma, r, N1, N2, 4*N, u0, f);
-U3 = reshape(U3(:, end), length(x3)-2, length(y3)-2);
 [~, x4, y4, U4] = graded_solver(T, a, b, c, d, alpha, sigma, r, N1, N2, 8*N, u0, f);
-U4 = reshape(U4(:, end), length(x4)-2, length(y4)-2);
 
 
 err1 = max(max(abs(U1-U2(:,1:2:end))))
