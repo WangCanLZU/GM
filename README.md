@@ -26,34 +26,7 @@ with homogeneous Dirichlet boundary condition and the initial values being $u_0(
 └── test.m
 ```
 
-### [`graded_solver.m`](./graded_solver.m) 
-`[t, x, y, U] = graded_solver(T, a, b, c, d, alpha, sigma, r, N1, N2, N, u0, f)`
 
-The solver of discussed problem.
-#### Inputs
-- `T` : the maximum time
-- `a`, `b`, `c`, `d` : the endpoints of two intervals that make up the rectangular area, that is, $\Omega=(a,b)\times (c,d)$
-- `alpha` : the order of time fractional derivative
-- `sigma` : the tempered parameter in the time fractional derivative
-- `r` : the parameter in graded mesh
-- `N1` : the number of uniformly discretized sub-intervals in spatial $x$ direction
-- `N2` : the number of uniformly discretized sub-intervals in spatial $y$ direction
-- `N` : the number of time stepping used in the graded mesh
-- `u0` : the initial values (a function)
-- `f` : the linear source term (a function)
-
-#### Outputs
-- `t` : the nodes of graded mesh
-- `x`, `y` : the nodes of spatial discretization
-- `U` : the numerical solution
-
-### [`l1.m`](./l1.m) & [`l1exp.m`](./l1exp.m)
-`m = l1(t, tau, alpha, sigma, n)`, `d = l1exp(t, tau, alpha, sigma, n)`
-
-The auxiliary functions to compute the coefficients in the $L1$ sheme of tempered time fractional derivative on graded mesh.
-
-### [`test.m`](./test.m)
-The numerical experiments taken in the paper.
 
 ## Citation
 ```biblatex
